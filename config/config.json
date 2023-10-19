@@ -1,0 +1,22 @@
+{
+    "development": {
+      "username": null,
+      "password": null,
+      "database": "task_development",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+      "storage": "./database.sqlite3"
+    },
+    "test": {
+      "username": null,
+      "password": null,
+      "database": "task_test",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+    "storage": ":memory"
+    },
+    "production": {
+        "dialect": "sqlite",
+        "storage": "./database.sqlite3"
+    }
+  }
